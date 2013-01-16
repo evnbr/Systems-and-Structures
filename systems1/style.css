@@ -1,0 +1,38 @@
+nav {
+	padding: 10px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #ddd;
+}
+
+
+#output {
+}
+
+.radial .word {
+	position: relative;
+	margin: 50px;
+	display: inline-block;
+}
+
+.radial .word > span {
+	display: inline-block;
+	bottom: 0px;
+	-webkit-transition: all 0.2s;
+	font-size: 18px;
+	position: absolute;
+	-webkit-transform-origin: bottom center;
+	font-family: Consolas;
+	background: rgba(0,0,0,0.2);
+	//width: 5px;
+	border-radius: 5px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.linear .word {
+	display: inline-block;
+}
+
+.linear .word > span {
+	//
+}
